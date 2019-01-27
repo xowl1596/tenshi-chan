@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: "fontello";
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display : flex;
+    background-color: powderblue;
+}
+.menu ul li{
+    display: inline-block;
+    background-color: dodgerblue;
+    width: 150px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 20px;
+    line-height: 75px;
+    /*font-size : 40px;*/
+}
+
+.footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+}
+.content{
+    display:flex;
+}
+.content nav{
+    border-right:1px solid gray;
+}
+.content aside{
+    border-left:1px solid gray;    
+}
+
+main{
+    padding:10px;
+}
